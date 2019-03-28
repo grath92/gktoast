@@ -18,7 +18,7 @@ allprojects {
 
 ```sh
   dependencies {
-	     implementation 'com.github.grath92:gktoast:0.10'
+	     implementation 'com.github.grath92:gktoast:0.11'
   }
 ```
 
