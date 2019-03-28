@@ -26,9 +26,21 @@ allprojects {
 ### Use it on your app:
 
 ```sh
-   GkToast.error(getApplicationContext(), "Error Message");
+   GkToast.Error(getApplicationContext(), "Error Message", GkToast.LENGTH_LONG);
 ```
 
 ```sh
-   GkToast.success(getApplicationContext(), "Success Message");
+   GkToast.Success(getApplicationContext(), "Success Message", GkToast.LENGTH_LONG);
+```
+
+```sh
+   GkToast.Warning(getApplicationContext(), "Warning Message", GkToast.LENGTH_LONG);
+```
+
+```sh
+   GkToast.Info(getApplicationContext(), "Info Message", GkToast.LENGTH_SHORT);
+```
+
+```sh
+   GkToast.Default(getApplicationContext(), "Default Message", GkToast.LENGTH_SHORT);
 ```
