@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnError.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GkToast.error(getApplicationContext(), "Oohh Noooo!!");
+                GkToast.Error(getApplicationContext(), "Oohh Noooo!!", GkToast.LENGTH_LONG);
             }
         });
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btnSuccess.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GkToast.success(getApplicationContext(), "Oohh Yesss!!");
+                GkToast.Success(getApplicationContext(), "Oohh Yesss!!", GkToast.LENGTH_LONG);
             }
         });
     }
